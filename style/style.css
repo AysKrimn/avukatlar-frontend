@@ -1,0 +1,77 @@
+body, html {
+
+    height: 100%;
+}
+
+#navbar {
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #0a0b0d !important;
+}
+
+#navbar * {
+
+    color: inherit;
+}
+
+
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../avukatlar/bg.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+
+  #searchDetail input { width: 100%; margin-bottom: 8px; border-radius: 8px; border: 2px solid #bdbdbd; padding: 4px;}
+  #searchDetail button { width: 100%; border: none; background: #2323a7; color: white; border-radius: 5px;} 
+
+  .card {
+
+    margin: 6px;
+  }
+
+  .card-body p { text-align: center;}
+
+
+
+
+
+
+  @media screen and (max-width: 768px) {
+    #parentCard .card {
+     
+        margin-top: 3rem;
+    }
+  }
